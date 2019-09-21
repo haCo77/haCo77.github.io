@@ -6,7 +6,9 @@
         "start": "node_modules/.bin/gulp watch"
     },
     "description": "My Personal Website",
-    "keywords": ["Jiangping Xu"],
+    "keywords": [
+        "Jiangping Xu"
+    ],
     "license": "MIT",
     "repository": {
         "type": "git",

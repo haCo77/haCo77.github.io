@@ -5,10 +5,10 @@
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
+  <meta name="description" content="Jiangping Xu">
+  <meta name="author" content="Jiangping Xu">
 
-  <title>Clean Blog - Start Bootstrap Theme</title>
+  <title>Home | Jiangping Xu</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -21,6 +21,69 @@
   <!-- Custom styles for this template -->
   <link href="css/clean-blog.min.css" rel="stylesheet">
 
+<style>
+.imgbox {
+    
+    display: block;
+    height: auto;
+    max-width: 100%;
+    margin: 0 auto;
+    
+    margin-top: 2%;
+    margin-bottom: 2%;
+    
+    float: left;
+    overflow: auto;
+    
+    -webkit-box-shadow: 0 0 0 3px #fff, 0 0 0 4px #999, 0 2px 5px 4px rgba(0,0,0,.2);
+    -moz-box-shadow: 0 0 0 3px #fff, 0 0 0 4px #999, 0 2px 5px 4px rgba(0,0,0,.2);
+    box-shadow: 0 0 0 3px #fff, 0 0 0 4px #999, 0 2px 5px 4px rgba(0,0,0,.2);
+    
+}
+.text-block-with-img {
+    float: left;
+    margin-left: 5%;
+    
+    max-width: 60%;
+    font-size: 18px;
+}
+.text-block {
+    float: left;
+    margin: 0 auto;
+}
+.intro-block {
+    margin: 5%;
+}
+.center-image
+{
+    max-width: 60%;
+    margin: 0 auto;
+    display: block;
+}
+.post-list-item{
+  display: block;
+  padding:8px 30px 10px 30px; 
+  border-bottom:1px solid #ddd;
+    
+    overflow: auto;
+  transition:0.4s ease; 
+  -webkit-transition:0.4s ease;
+  -moz-transition:0.4s ease;
+  -o-transition:0.4s ease;
+}
+.post-list-item:last-of-type{
+  border-bottom: none;
+}
+.post-list-item h2{
+  font-size: 24px;
+  margin: 8px 0 8px 0;
+  padding: 0;
+}
+.post-list-item:hover{
+  background-color: rgba(0,0,6,0.15);
+  
+}
+</style>
 </head>
 
 <body>
@@ -28,7 +91,6 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand" href="index.html">Start Bootstrap</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
         <i class="fas fa-bars"></i>
@@ -41,26 +103,20 @@
           <li class="nav-item">
             <a class="nav-link" href="about.html">About</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="post.html">Sample Post</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="contact.html">Contact</a>
-          </li>
         </ul>
       </div>
     </div>
   </nav>
 
   <!-- Page Header -->
-  <header class="masthead" style="background-image: url('img/home-bg.jpg')">
+  <header class="masthead" style="background-image: url('img/background.jpg')">
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
-        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="col-lg-8 col-md-10 mx-auto">
           <div class="site-heading">
-            <h1>Clean Blog</h1>
-            <span class="subheading">A Blog Theme by Start Bootstrap</span>
+            <h1>Jiangping Xu</h1>
+            <span class="subheading">Graphics Engineer | Programmer</span>
           </div>
         </div>
       </div>
@@ -70,64 +126,87 @@
   <!-- Main Content -->
   <div class="container">
     <div class="row">
-      <div class="col-lg-8 col-md-10 mx-auto">
-        <div class="post-preview">
-          <a href="post.html">
-            <h2 class="post-title">
-              Man must explore, and this is exploration at its greatest
-            </h2>
-            <h3 class="post-subtitle">
-              Problems look mighty small from 150 miles up
-            </h3>
-          </a>
-          <p class="post-meta">Posted by
-            <a href="#">Start Bootstrap</a>
-            on September 24, 2019</p>
-        </div>
+      <div class="col-lg-10 col-md-12 mx-auto">
+
+        <a class="post-list-item" href="https://github.com/haCo77/Skecth-Like-Rendering">
+          <img class="imgbox" src="img/sketch.gif" ></img>
+          <div class="text-block-with-img">
+              <h2> Sketch-Like Rendering </h2>
+              <p>
+                  WebGL2, Shader Programming
+                  <ul>
+                      <li>Raytracing in shader</li>
+                      <li>Use signed distance function to generate the flower and the pencil</li>
+                      <li>Based on the SIGGRAPH paper ”Suggestive Contours for Conveying Shape”</li>
+                  </ul>
+              </p>
+          </div>
+        </a>
+
         <hr>
-        <div class="post-preview">
-          <a href="post.html">
-            <h2 class="post-title">
-              I believe every human has a finite number of heartbeats. I don't intend to waste any of mine.
-            </h2>
-          </a>
-          <p class="post-meta">Posted by
-            <a href="#">Start Bootstrap</a>
-            on September 18, 2019</p>
-        </div>
+        <a class="post-list-item" href="https://www.youtube.com/watch?v=hsqfxJkAC5Y&t=1s">
+          <img class="imgbox" src="img/PDQCloth.jpg" ></img>
+          <div class="text-block-with-img">
+              <h2> PDQCloth Sim </h2>
+              <p>
+                  Maya Plugin Development
+                  <ul>
+                      <li>Real-time cloth modling and animation</li>
+                      <li>Allow user-defined cloth structures, parameters, external forces and constraints</li>
+                      <li>Based on the SIGGRAPH paper ”fast simulation of mass-spring systems”</li>
+                  </ul>
+              </p>
+          </div>
+        </a>
+
         <hr>
-        <div class="post-preview">
-          <a href="post.html">
-            <h2 class="post-title">
-              Science has not yet mastered prophecy
-            </h2>
-            <h3 class="post-subtitle">
-              We predict too much for the next year and yet far too little for the next ten.
-            </h3>
-          </a>
-          <p class="post-meta">Posted by
-            <a href="#">Start Bootstrap</a>
-            on August 24, 2019</p>
-        </div>
+        <a class="post-list-item" href="https://www.shadertoy.com/view/Wdj3DV">
+          <img class="imgbox" src="img/campfire.gif" ></img>
+          <div class="text-block-with-img">
+              <h2> Simple Campfire </h2>
+              <p>
+                  WebGL2, Shader Programming
+                  <ul>
+                      <li>Real-time 3D fire and fog are procedural generated by raymarching noise funtions</li>
+                      <li>Animated soft shadow</li>
+                      <li>Volumetric lighting based on density gradients</li>
+                  </ul>
+              </p>
+          </div>
+        </a>
+
         <hr>
-        <div class="post-preview">
-          <a href="post.html">
-            <h2 class="post-title">
-              Failure is not an option
-            </h2>
-            <h3 class="post-subtitle">
-              Many say exploration is part of our destiny, but it’s actually our duty to future generations.
-            </h3>
+        <a class="post-list-item">
+            <img class="imgbox" src="img/Mosque.jpg" ></img>
+            <div class="text-block-with-img">
+                <h2> The Nasir-ol-molk Mosque </h2>
+                <p>
+                    Modeling in Maya
+                    <ul>
+                        <li>A 3d reconstruction of the Nasir-ol-molk Mosque with textures and lighting</li>
+                        <li>Use normal map to generate the distorted reflection on the ground</li>
+                    </ul>
+                </p>
+            </div>
           </a>
-          <p class="post-meta">Posted by
-            <a href="#">Start Bootstrap</a>
-            on July 8, 2019</p>
-        </div>
-        <hr>
-        <!-- Pager -->
-        <div class="clearfix">
-          <a class="btn btn-primary float-right" href="#">Older Posts &rarr;</a>
-        </div>
+  
+          <hr>
+          <a class="post-list-item">
+              <img class="imgbox" src="img/cinema.png" ></img>
+              <div class="text-block-with-img">
+                  <h2> "Cinema" </h2>
+                  <p>
+                      Volumetric Pathtracer
+                      <ul>
+                          <li>Multiple importance sampling</li>
+                          <li>Light is filtered by a film before reaching the screen, just like an old-fashioned cinema</li>
+                      </ul>
+                  </p>
+              </div>
+            </a>
+    
+            <hr>
+        
       </div>
     </div>
   </div>
@@ -141,23 +220,7 @@
         <div class="col-lg-8 col-md-10 mx-auto">
           <ul class="list-inline text-center">
             <li class="list-inline-item">
-              <a href="#">
-                <span class="fa-stack fa-lg">
-                  <i class="fas fa-circle fa-stack-2x"></i>
-                  <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#">
-                <span class="fa-stack fa-lg">
-                  <i class="fas fa-circle fa-stack-2x"></i>
-                  <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
-                </span>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="#">
+              <a href="https://www.github.com/haCo77">
                 <span class="fa-stack fa-lg">
                   <i class="fas fa-circle fa-stack-2x"></i>
                   <i class="fab fa-github fa-stack-1x fa-inverse"></i>
@@ -165,7 +228,6 @@
               </a>
             </li>
           </ul>
-          <p class="copyright text-muted">Copyright &copy; Your Website 2019</p>
         </div>
       </div>
     </div>
